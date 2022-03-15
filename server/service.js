@@ -1,6 +1,6 @@
 import fs from 'fs';
 import fsPromises from 'fs/promises'
-import { config } from './config.js';
+import  config  from './config.js';
 import { join, extname } from 'path'
 
 const {
@@ -8,9 +8,6 @@ const {
         publicDirectory
     }
 } = config
-
-
-
 
 export class Service {
     createFileStream(filename) {
